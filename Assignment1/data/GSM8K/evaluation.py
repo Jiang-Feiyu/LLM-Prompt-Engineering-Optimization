@@ -53,8 +53,9 @@ def extract_ans_from_response(answer: str, eos=None):
 
 
 if __name__ == '__main__':
-    test_solution = "Anna has 2 more apples than Elsa. So Anna has 2 + 5 = 7 apples. Elsa and Anna have 5 + 7 = 12 apples together. #### 12 apples"
+    test_solution = "First find how many gigabytes are in 40% of the file: 200 GB * 40% = <<200*40*.01=80>>80 GB\nThen divide that number by the download rate to find the time until Windows restarts: 80 GB / 2 GB/minute = <<80/2=40>>40 minutes\nThen find the time to download the whole file after the restart: 200 GB / 2 GB/minute = <<200/2=100>>100 minutes\nThen add the time to download 40% of the file, to download the whole file, and to wait for Windows to update: 40 minutes + 100 minutes + 20 minutes = <<40+100+20=160>>160 minutes\n#### 160"
     answer = extract_ans_from_response(test_solution)
-    answer = re.findall('-?\d+(?:\.\d+)?(?:/\d+)?', answer)[0]
+    if isinstance(answer, str):
+        answer = re.findall('-?\d+(?:\.\d+)?(?:/\d+)?', answer)[0]
     answer = delete_extra_zero(answer)
     print(answer)

@@ -60,3 +60,7 @@ def nshot_chats(n: int, question: str) -> dict:
 zero_shot_prompt = nshot_chats(n=0, question="Elsa has 5 apples. Anna has 2 more apples than Elsa. How many apples do they have together?")
 
 few_shot_prompt = nshot_chats(n=8, question="Elsa has 5 apples. Anna has 2 more apples than Elsa. How many apples do they have together?")  # todo: n is the number of demonstrations
+
+print("zero_shot_prompt \n\n", zero_shot_prompt)
+print("======================================================================")
+print("few_shot_prompt \n\n", few_shot_prompt)
