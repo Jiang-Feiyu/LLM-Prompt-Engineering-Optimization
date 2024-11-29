@@ -1,7 +1,5 @@
 # COMP7607 Assignment 2 Report
 
-**Jiang Feiyu 3035770800**
-
 <div STYLE="page-break-after: always;"></div>
 
 ## Structure of the directory
