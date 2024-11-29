@@ -1,0 +1,202 @@
+[
+    {
+        "role": "system",
+        "content": "Your task is to solve a series of math word problems by providing the final answer. Use the format #### [value] to highlight your answer. For example, if the answer is 560, you should write #### 560."
+    },
+    {
+        "role": "user",
+        "content": "Question: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nThere are 15 trees originally. Then there were 21 trees after the Grove workers planted some more. So there must have been 21 - 15 = <<21-15=6>>6 trees that were planted.\n#### 6"
+    },
+    {
+        "role": "user",
+        "content": "Question: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nThere are originally 3 cars. Then 2 more cars arrive. Now 3 + 2 = <<3+2=5>>5 cars are in the parking lot.\n#### 5"
+    },
+    {
+        "role": "user",
+        "content": "Question: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nOriginally, Leah had 32 chocolates and her sister had 42. So in total they had 32 + 42 = <<32+42=74>>74. After eating 35, they had 74 - 35 = <<74-35=39>>39 pieces left in total.\n#### 39"
+    },
+    {
+        "role": "user",
+        "content": "Question: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did Jason give to Denny?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nJason had 20 lollipops originally. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = <<20-12=8>>8 lollipops.\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Question: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nShawn started with 5 toys. He then got 2 toys each from his mom and dad. So he got 2 * 2 = <<2*2=4>>4 more toys. Now he has 5 + 4 = <<5+4=9>>9 toys.\n#### 9"
+    },
+    {
+        "role": "user",
+        "content": "Question: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nThere were originally 9 computers. For each day from monday to thursday, 5 more computers were installed. So 4 * 5 = <<4*5=20>>20 computers were added. Now 9 + 20 = <<9+20=29>>29 computers are now in the server room.\n#### 29"
+    },
+    {
+        "role": "user",
+        "content": "Question: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nMichael started with 58 golf balls. He lost 23 on Tuesday, and lost 2 more on wednesday. So he had 58 - 23 = <<58-23=35>>35 at the end of Tuesday, and 35 - 2 = <<35-2=33>>33 at the end of wednesday.\n#### 33"
+    },
+    {
+        "role": "user",
+        "content": "Question: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nOlivia had 23 dollars. She bought 5 bagels for 3 dollars each. So she spent 5 * 3 = <<5*3=15>>15 dollars. Now she has 23 - 15 = <<23-15=8>>8 dollars left.\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Question: A store has 120 shirts. They sold 45 shirts on Saturday and 38 shirts on Sunday. How many shirts are left?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal shirts sold = 45 + 38 = <<45+38=83>>83 shirts. Remaining shirts = 120 - 83 = <<120-83=37>>37 shirts.\n#### 37"
+    },
+    {
+        "role": "user",
+        "content": "Question: Sarah has $50. She spends $12 on lunch and $23 on a book. How much money does she have left?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\n Sarah spent 12 + 23 = <<12+23=35>>35 dollars in total. She now has 50 - 35 = <<50-35=15>>15 dollars left.\n#### 15"
+    },
+    {
+        "role": "user",
+        "content": "Question: There are 24 students in a class. The teacher divides them into groups of 4. How many groups are there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTo find the number of groups, divide total students by students per group: 24 ÷ 4 = <<24/4=6>>6 groups.\n#### 6"
+    },
+    {
+        "role": "user",
+        "content": "Question: Tom has 45 marbles. He gave 1/3 of his marbles to his friend. How many marbles does Tom have now?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\n Let's think step by step.\nTom gave away 1/3 of 45 marbles, which is 45 ÷ 3 = <<45/3=15>>15 marbles. He now has 45 - 15 = <<45-15=30>>30 marbles.\n#### 30"
+    },
+    {
+        "role": "user",
+        "content": "Question: A bakery sold 48 muffins in the morning. In the afternoon, they sold another 36 muffins. If each muffin costs $2, how much money did they make in total?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal muffins sold = 48 + 36 = <<48+36=84>>84 muffins. Each muffin costs $2, so total money = 84 * 2 = <<84*2=168>>168 dollars.\n#### 168"
+    },
+    {
+        "role": "user",
+        "content": "Question: Elsa has 5 apples. Anna has 2 more apples than Elsa. How many apples do they have together?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nElsa has 5 apples. Anna has 2 more than Elsa, so Anna has 5 + 2 = <<5+2=7>>7 apples. Together they have 5 + 7 = <<5+7=12>>12 apples.\n#### 12"
+    },
+    {
+        "role": "user",
+        "content": "Question: In a library, there are 156 books on the first shelf and 98 books on the second shelf. If 47 books are borrowed, how many books remain on both shelves?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal books initially = 156 + 98 = <<156+98=254>>254 books. After 47 are borrowed, remaining books = 254 - 47 = <<254-47=207>>207 books.\n#### 207"
+    },
+    {
+        "role": "user",
+        "content": "Question: A restaurant serves 35 customers for breakfast and twice as many for lunch. How many customers did they serve in total?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nBreakfast customers = 35. Lunch customers = 35 * 2 = <<35*2=70>>70. Total customers = 35 + 70 = <<35+70=105>>105.\n#### 105"
+    },
+    {
+        "role": "user",
+        "content": "Question: Emma has 84 stickers. She wants to share them equally among 6 friends. How many stickers will each friend get?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTo find stickers per friend, divide total stickers by number of friends: 84 ÷ 6 = <<84/6=14>>14 stickers each.\n#### 14"
+    },
+    {
+        "role": "user",
+        "content": "Question: A movie theater has 200 seats. If 76 adults and 58 children are watching a movie, how many empty seats are there?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal occupied seats = 76 + 58 = <<76+58=134>>134. Empty seats = 200 - 134 = <<200-134=66>>66 seats.\n#### 66"
+    },
+    {
+        "role": "user",
+        "content": "Question: Peter saves $5 each week. How much money will he save in 12 weeks?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal savings = Weekly savings × Number of weeks = 5 * 12 = <<5*12=60>>60 dollars.\n#### 60"
+    },
+    {
+        "role": "user",
+        "content": "Question: A factory produces 125 cars per day. How many cars will they produce in 5 days if they reduce production by 20 cars per day?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nDay 1: 125 cars\nDay 2: 105 cars\nDay 3: 85 cars\nDay 4: 65 cars\nDay 5: 45 cars\nTotal = 125 + 105 + 85 + 65 + 45 = <<125+105+85+65+45=425>>425 cars\n ####425"
+    },
+    {
+        "role": "user",
+        "content": "Question: A swimming pool loses 15 liters of water per day due to evaporation. If the pool initially contains 5000 liters, how much water will remain after 7 days?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal water lost = Days × Daily loss = 7 × 15 = <<7*15=105>>105 liters\nRemaining water = Initial - Lost = 5000 - 105 = <<5000-105=4895>>4895 liters\n#### 4895"
+    },
+    {
+        "role": "user",
+        "content": "Question: In a video game tournament, each player scores points in 3 rounds. If a player scores 85, 92, and 78 points in each round, what is their average score?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nTotal score = 85 + 92 + 78 = <<85+92+78=255>>255\nAverage score = Total score ÷ Number of rounds = 255 ÷ 3 = <<255/3=85>>85 points\n#### 85"
+    },
+    {
+        "role": "user",
+        "content": "Question: A farmer plants trees in a rectangular field that is 15 meters long and 12 meters wide. If each tree needs 3 square meters of space, how many trees can be planted?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nField area = Length × Width = 15 × 12 = <<15*12=180>>180 square meters\nNumber of trees = Total area ÷ Space per tree = 180 ÷ 3 = <<180/3=60>>60 trees\n#### 60"
+    },
+    {
+        "role": "user",
+        "content": "Question: A restaurant offers a 15% discount on a meal that originally costs $80. How much money will a customer save?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nLet's think step by step.\nDiscount amount = Original price × Discount percentage = 80 × 0.15 = <<80*0.15=12>>12 dollars\n#### 12"
+    },
+    {
+        "role": "user",
+        "content": "Question: Elsa has 5 apples. Anna has 2 more apples than Elsa. How many apples do they have together?"
+    }
+]

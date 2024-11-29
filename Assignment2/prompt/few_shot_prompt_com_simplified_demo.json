@@ -1,0 +1,74 @@
+[
+    {
+        "role": "system",
+        "content": "Your task is to solve a series of math word problems by providing the final answer. Use the format #### [value] to highlight your answer. For example, if the answer is 560, you should write #### 560."
+    },
+    {
+        "role": "user",
+        "content": "Question: A grove has 15 trees now and will have 21 trees after planting. How many new trees were planted?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nInitial trees: 15\nFinal trees: 21\n21 - 15 = <<21-15=6>>6 new trees\n#### 6"
+    },
+    {
+        "role": "user",
+        "content": "Question: There are 3 cars in a lot. 2 more arrive. How many cars total?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nInitial cars: 3\nNew cars: 2\n3 + 2 = <<3+2=5>>5 cars total\n#### 5"
+    },
+    {
+        "role": "user",
+        "content": "Question: Two sisters have 32 and 42 chocolates. They eat 35. How many remain?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nTotal chocolates: 32 + 42 = <<32+42=74>>74\nEaten: 35\nRemaining: 74 - 35 = <<74-35=39>>39\n#### 39"
+    },
+    {
+        "role": "user",
+        "content": "Question: Jason has 20 lollipops, gives some away, and has 12 left. How many did he give?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nStarting amount: 20\nRemaining: 12\nGiven away: 20 - 12 = <<20-12=8>>8\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Question: Shawn has 5 toys and gets 2 toys from each parent. How many toys now?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nInitial toys: 5\nNew toys: 2 × 2 = <<22=4>>4\nTotal: 5 + 4 = <<5+4=9>>9\n#### 9"
+    },
+    {
+        "role": "user",
+        "content": "Question: A room has 9 computers. 5 are added daily for 4 days. How many computers now?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nInitial: 9\nAdded: 4 × 5 = <<45=20>>20\nTotal: 9 + 20 = <<9+20=29>>29\n#### 29"
+    },
+    {
+        "role": "user",
+        "content": "Question: Michael has 58 golf balls, loses 23, then loses 2 more. How many remain?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nStart: 58\nAfter first loss: 58 - 23 = <<58-23=35>>35\nFinal: 35 - 2 = <<35-2=33>>33\n#### 33"
+    },
+    {
+        "role": "user",
+        "content": "Question: Someone has $23 and spends $15 on bagels. How much money is left?"
+    },
+    {
+        "role": "assistant",
+        "content": "Answer:\nInitial: $23\nSpent: $15\nRemaining: 23 - 15 = <<23-15=8>>$8\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Question: One person has 5 apples. Another has 2 more. How many apples total?"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "role": "system",
+        "content": "You are a mathematical reasoning assistant. For each word problem, analyze the situation and calculate the solution. Present your final answer in this format: Solution:\n#### [number]"
+    },
+    {
+        "role": "user",
+        "content": "In a grove, there were initially 15 trees. Workers planted additional trees today. The final count is 21 trees. Calculate how many new trees were planted."
+    },
+    {
+        "role": "assistant",
+        "content": "Let me break this down:\nInitial trees: 15\nFinal count: 21\nDifference: 21 - 15 = <<21-15=6>>6 new trees planted\nSolution:\n#### 6"
+    },
+    {
+        "role": "user",
+        "content": "Initially, 3 cars are parked in a lot. 2 additional cars enter the lot. What is the total number of cars now?"
+    },
+    {
+        "role": "assistant",
+        "content": "Initial cars: 3\nNew arrivals: 2\nTotal: 3 + 2 = <<3+2=5>>5 cars\nSolution:\n#### 5"
+    },
+    {
+        "role": "user",
+        "content": "Leah and her sister have 32 and 42 chocolates respectively. After consuming 35 pieces together, what is their combined remaining total?"
+    },
+    {
+        "role": "assistant",
+        "content": "Analysis:\nInitial total: 32 + 42 = <<32+42=74>>74\nConsumed: 35\nRemaining: 74 - 35 = <<74-35=39>>39 pieces\nSolution:\n#### 39"
+    },
+    {
+        "role": "user",
+        "content": "Jason initially had 20 lollipops. After sharing some with Denny, he now has 12. Calculate how many lollipops Denny received."
+    },
+    {
+        "role": "assistant",
+        "content": "Starting amount: 20\nCurrent amount: 12\nShared: 20 - 12 = <<20-12=8>>8 lollipops\nSolution:\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Shawn begins with 5 toys. For Christmas, both his mother and father give him 2 toys each. Calculate his final toy count."
+    },
+    {
+        "role": "assistant",
+        "content": "Initial toys: 5\nGifts from parents: 2 × 2 = <<22=4>>4\nTotal: 5 + 4 = <<5+4=9>>9 toys\nSolution:\n#### 9"
+    },
+    {
+        "role": "user",
+        "content": "A server room starts with 9 computers. Each day from Monday through Thursday, 5 new computers are installed. Calculate the final count."
+    },
+    {
+        "role": "assistant",
+        "content": "Initial computers: 9\nDaily installations: 5 computers × 4 days = <<45=20>>20\nFinal count: 9 + 20 = <<9+20=29>>29\nSolution:\n#### 29"
+    },
+    {
+        "role": "user",
+        "content": "Michael starts with 58 golf balls. Tuesday's loss: 23 balls. Wednesday's loss: 2 balls. What's his final count?"
+    },
+    {
+        "role": "assistant",
+        "content": "Initial count: 58\nAfter Tuesday: 58 - 23 = <<58-23=35>>35\nAfter Wednesday: 35 - 2 = <<35-2=33>>33\nSolution:\n#### 33"
+    },
+    {
+        "role": "user",
+        "content": "With $23, Olivia purchases 5 bagels at $3 each. Calculate her remaining money."
+    },
+    {
+        "role": "assistant",
+        "content": "Starting amount: $23\nBagel cost: 5 × $3 = <<5*3=15>>$15\nRemaining: $23 - $15 = <<23-15=8>>$8\nSolution:\n#### 8"
+    },
+    {
+        "role": "user",
+        "content": "Elsa owns 5 apples. Anna has 2 more than Elsa. What is their combined apple count?"
+    }
+]

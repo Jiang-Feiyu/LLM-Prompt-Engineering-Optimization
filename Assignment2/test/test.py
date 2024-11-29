@@ -1,4 +1,4 @@
-api_key="9c5a23f5-bf61-4814-a6e6-e0a6cbf9d9a1"
+api_key=""
 
 from openai import OpenAI
 import json
@@ -119,9 +119,9 @@ def is_correct_ans(answer, LLM_ans):
 
 filename = 'data/GSM8K/test.jsonl'
 # log_file_path = "log.jsonl" # zero-shot
-log_file_path = "./output/fewshot_prompt_correctdemo_wrongans.jsonl"
+log_file_path = "./output/few_shot_prompt_differ_structure.jsonl"
 data_list = load_json_objects(filename)
-prompt_path = "./prompt/few_shot_prompt_correctdemo_wrongans.json"
+prompt_path = "./prompt/few_shot_prompt_differ_structure.json"
 
 # 读取prompt文件
 with open(prompt_path, 'r', encoding='utf-8') as f:
