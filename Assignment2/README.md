@@ -138,6 +138,10 @@ The solutions have been modified from the few-shot baseline by deliberately alte
             "content": "Answer:\nLet's think step by step.\nElsa has 5 apples. Anna has 2 more than Elsa, so Anna has 5 * 2 = <<5*2=10>>10 apples. Together they have 5 + 10 = <<5+10=15>>15 apples.\n#### 15"
         }
 
+The Accuracy of this method is: `0.2100075815011372` (277/1319)
+
+<div STYLE="page-break-after: always;"></div>
+
 ### Observation
 
 | prompt type                                                        | accuracy |
@@ -210,6 +214,8 @@ For example:
 
 The Accuracy of this method is: `0.7058377558756633` (931/1319)
 
+<div STYLE="page-break-after: always;"></div>
+
 ### Observation
 
 | prompt type       | accuracy |
@@ -221,6 +227,8 @@ The Accuracy of this method is: `0.7058377558756633` (931/1319)
 The original prompts and simplified versions show minimal difference, indicating that **moderate prompt complexity may help improve accuracy**.
 
 Complex prompts show significantly lower performance, suggesting that **excessive complexity in prompts may affect the model's understanding and execution effectiveness**.
+
+<div STYLE="page-break-after: always;"></div>
 
 ## Number of Demonstrations
 
@@ -349,6 +357,8 @@ Here adding different writing styles, for example:
 The prompt as a whole tends to use a playful style, making mathematical problems more attractive through interesting titles and expressions, while maintaining a certain degree of formality in the specific problem descriptions to ensure clarity.
 
 The Accuracy of this method is: `0.8119787717968158` (1071/1319)
+
+<div STYLE="page-break-after: always;"></div>
 
 ### Observation
 
